@@ -715,7 +715,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8450-common/proprietary/vendor/lib64/vendor.qti.gnss-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss-V3-ndk.so \
     vendor/xiaomi/sm8450-common/proprietary/vendor/lib64/vendor.qti.gnss-V5-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss-V5-ndk.so \
     vendor/xiaomi/sm8450-common/proprietary/vendor/lib64/vendor.qti.gnss-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss-service.so \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so \
     vendor/xiaomi/sm8450-common/proprietary/vendor/lib64/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.alarm@1.0.so \
     vendor/xiaomi/sm8450-common/proprietary/vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so \
     vendor/xiaomi/sm8450-common/proprietary/vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so \
@@ -816,6 +815,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8450-common/proprietary/vendor/lib64/vendor.qti.latency@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.latency@2.1.so
 
 PRODUCT_PACKAGES += \
+    vendor.qti.hardware.AGMIPC@1.0-impl \
     CACertService \
     CneApp \
     IWlanService \
