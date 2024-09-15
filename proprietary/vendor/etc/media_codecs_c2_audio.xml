@@ -18,7 +18,6 @@
      limitations under the License.
 -->
 <Included>
-    <Include href="media_codecs_dolby_audio.xml" />
     <Decoders>
         <!-- C2 audio decoders -->
         <MediaCodec name="c2.qti.alac.sw.decoder" type="audio/alac" rank="0">
@@ -51,17 +50,28 @@
             <Limit name="bitrate" range="1-9216000" />
             <Limit name="concurrent-instances" max="2" />
         </MediaCodec>
+        <!-- #ifndef OPLUS_BUG_COMPATIBILITY -->
+        <!-- Xiaopeng.Hu@MM.MEDIASERVER.PLAYER.1958888, 2021/08/13, Remove for tencent video play fail -->
+        <!--
         <MediaCodec name="c2.qti.dsd.sw.decoder" type="audio/dsd" rank="0">
             <Limit name="channel-count" max="6" />
             <Limit name="sample-rate" ranges="8000-22579200" />
             <Limit name="concurrent-instances" max="2" />
         </MediaCodec>
+        -->
+        <!-- #endif //OPLUS_BUG_COMPATIBILITY -->
+
+        <!-- #ifndef OPLUS_BUG_COMPATIBILITY -->
+        <!-- Bingwang.Yang@MM.MEDIASERVER.PLAYER.3955250, 2022/07/08, Remove for CtsMediaDecoderTestCases  Fail -->
+        <!--
         <MediaCodec name="c2.qti.aac.hw.decoder" type="audio/mp4a-latm">
             <Limit name="channel-count" max="6" />
             <Limit name="sample-rate" ranges="8000-96000" />
             <Limit name="bitrate" range="8000-1536000" />
             <Limit name="concurrent-instances" max="2" />
         </MediaCodec>
+        -->
+        <!-- #endif //OPLUS_BUG_COMPATIBILITY -->
         <MediaCodec name="c2.qti.alac.hw.decoder" type="audio/alac" rank="1">
             <Limit name="channel-count" max="8" />
             <Limit name="sample-rate" ranges="8000-192000" />
