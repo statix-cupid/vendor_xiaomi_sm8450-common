@@ -81,13 +81,5 @@ geteuid: 1
 getgid: 1
 getegid: 1
 getgroups: 1
-
-#ifdef OPLUS_FEATURE_OSIE_SR
-#shumin.nie@MULTIMEDIA.MMSERVER.PLAYER, 2020/11/10, Add for OSIE and SR
-inotify_init1: 1
-inotify_add_watch: 1
-inotify_rm_watch: 1
-#endif /* OPLUS_FEATURE_OSIE_SR */
-
 sched_setaffinity: 1
 sched_getaffinity: 1
