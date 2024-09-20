@@ -489,24 +489,6 @@ prebuilt_etc_xml {
 	soc_specific: true,
 }
 
-cc_prebuilt_binary {
-	name: "dolbycodec2",
-	owner: "xiaomi",
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/bin/hw/dolbycodec2"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	relative_install_path: "hw",
-	soc_specific: true,
-}
-
 install_symlink {
 	name: "libimscamera_jni_libimscamera_jni_symlink64",
 	system_ext_specific: true,
