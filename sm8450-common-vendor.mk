@@ -408,6 +408,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8450-common/proprietary/vendor/lib64/libbluetooth_audio_session_qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_qti.so \
     vendor/xiaomi/sm8450-common/proprietary/vendor/lib64/libbluetooth_audio_session_qti_2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_qti_2_1.so \
     vendor/xiaomi/sm8450-common/proprietary/vendor/lib64/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbtnv.so \
+    vendor/xiaomi/sm8450-common/proprietary/vendor/lib64/libc2filterplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2filterplugin.so \
     vendor/xiaomi/sm8450-common/proprietary/vendor/lib64/libcacertclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcacertclient.so \
     vendor/xiaomi/sm8450-common/proprietary/vendor/lib64/libcdfw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdfw.so \
     vendor/xiaomi/sm8450-common/proprietary/vendor/lib64/libcdfw_remote_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdfw_remote_api.so \
@@ -661,11 +662,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8450-common/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
     vendor/xiaomi/sm8450-common/proprietary/vendor/lib64/sensors.touch.detect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.touch.detect.so \
     vendor/xiaomi/sm8450-common/proprietary/vendor/lib64/sensors.ultrasoundproximity.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ultrasoundproximity.so \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/lib64/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libasphere.so \
     vendor/xiaomi/sm8450-common/proprietary/vendor/lib64/soundfx/libdlbvol.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libdlbvol.so \
     vendor/xiaomi/sm8450-common/proprietary/vendor/lib64/soundfx/libhwdap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libhwdap.so \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/lib64/soundfx/libmisoundfx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libmisoundfx.so \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/lib64/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libshoebox.so \
     vendor/xiaomi/sm8450-common/proprietary/vendor/lib64/soundfx/libswgamedap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswgamedap.so \
     vendor/xiaomi/sm8450-common/proprietary/vendor/lib64/soundfx/libswspatializer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswspatializer.so \
     vendor/xiaomi/sm8450-common/proprietary/vendor/lib64/soundfx/libswvqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswvqe.so \
